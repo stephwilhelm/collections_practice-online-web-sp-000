@@ -31,7 +31,11 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-	array.each do |name|
-		name.start_with?("a") true : false
-	end
-end
+	i = 0
+   collection = []
+   while i < array.length
+     collection << yield(array.start_with?("a")[i])
+     i += 1
+   end
+   collection
+ end
