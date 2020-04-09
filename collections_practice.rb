@@ -24,6 +24,6 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
+def kesha_maker(string)
   string.gsub /[2]/, {"[2]" => "$"}
 end
