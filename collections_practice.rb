@@ -29,3 +29,9 @@ def kesha_maker(array)
 		item[2] = "$"
 	end
 end
+
+def find_a(array)
+	array.each do |name|
+		start_with?("a") true : false
+	end
+end
